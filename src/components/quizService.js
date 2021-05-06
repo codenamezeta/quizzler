@@ -372,8 +372,6 @@ const qBank = [
   },
 ]
 
-const quizService = (n = 5) => {
-  Promise.resolve(qBank.sort(() => 0.5 - Math.random()).slice(0, n))
+export default function quizService(n = 5) {
+  return Promise.resolve(qBank.sort(() => 0.5 - Math.random()).slice(0, n))
 }
-
-export default quizService

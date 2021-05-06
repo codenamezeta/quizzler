@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import './assets/style.css'
-import quizService from './quizService'
+import quizService from './components/quizService'
 import QuestionBox from './components/QuestionBox'
 import Result from './components/Result'
 
