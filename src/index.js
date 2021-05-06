@@ -38,7 +38,7 @@ class Quizler extends Component {
     return (
       <div className='container'>
         <div className='title'>
-          Quizler{' '}
+          Quizzler{' '}
           <span style={{ fontSize: '0.5rem', color: 'gray' }}>
             by _codenamezeta
           </span>
